@@ -1,0 +1,16 @@
+.button {
+  width: 56px;
+  height: 56px;
+  display: grid;
+  place-items: center;
+  background-color: var(--button-default-bg);
+  color: var(--button-default-color);
+  border-radius: 12px;
+  border: 2px solid transparent;
+  transition: background-color color border-color 0.25s;
+}
+
+.button:hover {
+  border-width: 2px;
+  border-color: #646cff;
+}

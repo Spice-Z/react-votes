@@ -1,0 +1,21 @@
+.upvote {
+  width: 56px;
+  height: 56px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  border: 2px solid transparent;
+  transition: background-color color border-color 0.25s;
+  background-color: var(--button-default-bg);
+  color: var(--button-default-color);
+}
+
+.upvote[data-selected="true"] {
+  background-color: var(--button-selected-bg);
+  color: var(--button-selected-color);
+}
+
+.upvote:hover {
+  border-width: 2px;
+  border-color: #646cff;
+}
