@@ -1,8 +1,28 @@
 # React vote
 
+![Screenshot](https://github.com/user-attachments/assets/743297cf-9ad9-402b-a996-09ecc75f317e)
+
 This project is started by [Vite](https://vitejs.dev/) using TypeScript.
 
-![Screenshot](https://github.com/user-attachments/assets/743297cf-9ad9-402b-a996-09ecc75f317e)
+To run this project, you can use the following commands:
+
+```bash
+# Install dependencies
+pnpm install
+
+# Run the development server
+pnpm dev
+
+```
+
+To run the test, you can use the following commands:
+
+```bash
+# Run the test
+pnpm test
+```
+
+You can use `npm` or `yarn` instead of `pnpm` if you prefer.
 
 ## File structure
 
