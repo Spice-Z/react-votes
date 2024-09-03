@@ -87,6 +87,14 @@ test.each([[true], [false]])(
 
 ## Others
 
+### About Styling
+
+I used CSS modules for styling in this project.
+
+If I have to make project in production, I would use Tailwind CSS or other libraries for better maintainability and scalability.
+
+### About additional features
+
 I added additional buttons under the list to increment and reset upvote list for debug purpose.
 
 ![Screenshot](https://github.com/user-attachments/assets/4751f03c-525d-4e4e-8736-abf317520f86)
